@@ -131,7 +131,6 @@ INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simpl
 INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1763730906,19113,0,2,0,0);
 INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884508,720,0,2,0,0);
 INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1763906818,729,0,2,0,0);
-INSERT INTO adlist VALUES(17,'https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884509,133,0,3,0,0);
 INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1763795722,949537,0,2,949537,0);
 INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1763860542,154706,0,2,154706,0);
 INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1739884516,7,0,2,0,0);
