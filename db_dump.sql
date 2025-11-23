@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS "group"
     description TEXT
 );
 INSERT INTO "group" VALUES(0,1,'Default',1734739048,1734739048,NULL);
-INSERT INTO "group" VALUES(1,0,'Amazon Alexa',1694475424,1743952004,'Block YouTube, etc.');
+INSERT INTO "group" VALUES(1,0,'BlockYouTube',1694475424,1763907221,'Block YouTube, etc.');
 CREATE TABLE domainlist
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
