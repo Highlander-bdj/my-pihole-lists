@@ -26,8 +26,6 @@ CREATE TABLE domainlist
     comment TEXT,
     UNIQUE(domain, type)
 );
-INSERT INTO domainlist VALUES(2,2,'(\.|^)papertrailapp\.com$',1,1612112538,1734739048,'');
-INSERT INTO domainlist VALUES(3,2,'(\.|^)papertrailapps\.com$',1,1612112556,1734739048,'');
 INSERT INTO domainlist VALUES(4,2,'(\.|^)amazon\.com$',1,1612191164,1734739048,'');
 INSERT INTO domainlist VALUES(5,2,'(\.|^)backblazeb2\.com$',1,1612274703,1734739048,'');
 INSERT INTO domainlist VALUES(6,2,'(\.|^)qnap\.com$',1,1612277029,1734739048,'');
@@ -60,9 +58,6 @@ INSERT INTO domainlist VALUES(138,3,'(\.|^)t\.co$',1,1734961585,1734961585,NULL)
 INSERT INTO domainlist VALUES(139,3,'(\.|^)tellapart\.com$',1,1734961586,1734961586,NULL);
 INSERT INTO domainlist VALUES(140,3,'(\.|^)ads-twitter\.com$',1,1734961586,1734961586,NULL);
 INSERT INTO domainlist VALUES(141,3,'(\.|^)periscope\.tv$',1,1734961586,1734961586,NULL);
-INSERT INTO domainlist VALUES(142,3,'(\.|^)tweetdeck\.com$',1,1734961586,1734961586,NULL);
-INSERT INTO domainlist VALUES(143,3,'(\.|^)twitter\.biz$',1,1734961586,1734961586,NULL);
-INSERT INTO domainlist VALUES(144,3,'(\.|^)twitpic\.com$',1,1734961586,1734961586,NULL);
 INSERT INTO domainlist VALUES(145,3,'(\.|^)twimg\.com$',1,1734961586,1734961586,NULL);
 INSERT INTO domainlist VALUES(146,3,'(\.|^)twitter\.com$',1,1734961586,1734961586,NULL);
 INSERT INTO domainlist VALUES(147,3,'(\.|^)twitter\.jp$',1,1734961586,1734961586,NULL);
@@ -104,6 +99,7 @@ INSERT INTO domainlist VALUES(183,3,'(\.|^)robloxdev\.cn$',1,1756084222,17560842
 INSERT INTO domainlist VALUES(184,0,'www.signupgenius.com',1,1763300889,1763300889,NULL);
 INSERT INTO domainlist VALUES(185,0,'lh7-rt.googleusercontent.com',1,1766440846,1766440846,'Added from Query Log');
 INSERT INTO domainlist VALUES(186,0,'sites.google.com',1,1767723747,1767723747,'Added from Query Log');
+INSERT INTO domainlist VALUES(188,2,'(\.|^)wizards\.com$',1,1768514831,1768514831,NULL);
 CREATE TABLE adlist
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -120,7 +116,7 @@ CREATE TABLE adlist
     type INTEGER NOT NULL DEFAULT 0,
     UNIQUE(address, type)
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1768374902,73825,1,1,0,0);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1768374902,73825,1,2,0,0);
 INSERT INTO adlist VALUES(4,'https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884503,22066,0,2,0,0);
 INSERT INTO adlist VALUES(5,'https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884503,20270,0,2,0,0);
 INSERT INTO adlist VALUES(6,'https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884504,48994,0,2,0,0);
@@ -130,24 +126,22 @@ INSERT INTO adlist VALUES(9,'https://raw.githubusercontent.com/hectorm/hmirror/m
 INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt',1,1612209536,1734739046,'Added by Updater',1739884506,6540,0,2,0,0);
 INSERT INTO adlist VALUES(11,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1612209536,1734739046,'Added by Updater',1739884507,2701,0,2,0,0);
 INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1612209536,1734739046,'Added by Updater',1739884507,34,0,2,0,0);
-INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1768202111,17326,0,2,0,0);
+INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1768461307,17328,0,1,0,0);
 INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884508,720,0,2,0,0);
-INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1768374907,515,0,1,0,0);
-INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1768202114,151873,0,2,151873,0);
-INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1768288515,148982,0,2,148982,0);
+INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1768461307,518,0,1,0,0);
+INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1768461309,151176,0,1,151176,0);
+INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1768461311,149098,0,1,149098,0);
 INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1739884516,7,0,2,0,0);
 INSERT INTO adlist VALUES(24,'https://blocklist.sefinek.net/generated/0.0.0.0/sites/youtube.txt',1,1691522468,1734815774,'Block Youtube',1739884519,282,0,2,0,0);
 INSERT INTO adlist VALUES(25,'https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt',1,1691528921,1734739046,'block ticktok',1739884519,3789,0,2,0,0);
-INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1768374913,214029,0,1,214029,0);
-INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1768374916,379133,0,1,379133,0);
+INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1768461315,213839,0,1,213839,0);
+INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1768461318,380069,0,1,380069,0);
 CREATE TABLE domainlist_by_group
 (
     domainlist_id INTEGER NOT NULL REFERENCES domainlist (id) ON DELETE CASCADE,
     group_id INTEGER NOT NULL REFERENCES "group" (id) ON DELETE CASCADE,
     PRIMARY KEY (domainlist_id, group_id)
 );
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(1,2,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(2,3,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(3,4,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(4,5,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(5,6,0);
@@ -180,9 +174,6 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(31,138,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(32,139,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(33,140,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(34,141,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(35,142,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(36,143,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(37,144,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(38,145,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(39,146,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(40,147,0);
@@ -224,4 +215,5 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(75,183,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(76,184,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(77,185,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(78,186,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(79,188,0);
 COMMIT;
