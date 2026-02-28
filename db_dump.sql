@@ -103,6 +103,37 @@ INSERT INTO domainlist VALUES(188,2,'(\.|^)wizards\.com$',1,1768514831,176851483
 INSERT INTO domainlist VALUES(189,0,'scry-app.herokuapp.com',1,1769352647,1769352647,NULL);
 INSERT INTO domainlist VALUES(190,0,'static.intercomassets.com',1,1770220142,1770220142,'Added from Query Log');
 INSERT INTO domainlist VALUES(192,2,'(\.|^)bswhealth\.com$',1,1770923965,1770923965,NULL);
+INSERT INTO domainlist VALUES(193,3,'(\.|^)betano\.bg$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(194,3,'(\.|^)betano\.ca$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(195,3,'(\.|^)betano\.com$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(196,3,'(\.|^)betano\.cz$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(197,3,'(\.|^)betano\.de$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(198,3,'(\.|^)betano\.ng$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(199,3,'(\.|^)betano\.pt$',1,1772196770,1772196770,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(200,3,'(\.|^)betfair\.com\.au$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(201,3,'(\.|^)betfair\.com$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(202,3,'(\.|^)betfair\.es$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(203,3,'(\.|^)betfair\.it$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(204,3,'(\.|^)betfair\.ro$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(205,3,'(\.|^)betfair\.se$',1,1772196771,1772196771,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(206,3,'(\.|^)betway\.be$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(207,3,'(\.|^)betway\.bet\.ar$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(208,3,'(\.|^)betway\.co\.za$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(209,3,'(\.|^)betway\.com\.gh$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(210,3,'(\.|^)betway\.com\.ng$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(211,3,'(\.|^)betway\.com$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(212,3,'(\.|^)betway\.de$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(213,3,'(\.|^)betway\.es$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(214,3,'(\.|^)betway\.fr$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(215,3,'(\.|^)betway\.it$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(216,3,'(\.|^)betway\.mx$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(217,3,'(\.|^)betway\.pl$',1,1772196772,1772196772,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(218,3,'(\.|^)betway\.se$',1,1772196773,1772196773,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(219,3,'(\.|^)betwaygroup\.com$',1,1772196773,1772196773,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(220,3,'(\.|^)betwaysatta\.com$',1,1772196773,1772196773,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(221,3,'(\.|^)vietnambetway88\.com$',1,1772196773,1772196773,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(222,3,'(\.|^)zhihu\.com$',1,1772196800,1772196800,'Added by Pi-hole Remote');
+INSERT INTO domainlist VALUES(223,3,'(\.|^)zhimg\.com$',1,1772196800,1772196800,'Added by Pi-hole Remote');
 CREATE TABLE adlist
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -119,7 +150,7 @@ CREATE TABLE adlist
     type INTEGER NOT NULL DEFAULT 0,
     UNIQUE(address, type)
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1772090102,78788,1,1,0,0);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1772090102,78788,1,2,0,0);
 INSERT INTO adlist VALUES(4,'https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884503,22066,0,2,0,0);
 INSERT INTO adlist VALUES(5,'https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884503,20270,0,2,0,0);
 INSERT INTO adlist VALUES(6,'https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884504,48994,0,2,0,0);
@@ -129,16 +160,16 @@ INSERT INTO adlist VALUES(9,'https://raw.githubusercontent.com/hectorm/hmirror/m
 INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt',1,1612209536,1734739046,'Added by Updater',1739884506,6540,0,2,0,0);
 INSERT INTO adlist VALUES(11,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1612209536,1734739046,'Added by Updater',1739884507,2701,0,2,0,0);
 INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1612209536,1734739046,'Added by Updater',1739884507,34,0,2,0,0);
-INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1772003707,17380,0,2,0,0);
+INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1772176506,17385,0,1,0,0);
 INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884508,720,0,2,0,0);
-INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1772090107,480,0,1,0,0);
+INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1772176507,419,0,1,0,0);
 INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1772003709,156911,0,2,156911,0);
-INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1772090110,151854,0,1,151854,0);
+INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1772090110,151854,0,2,151854,0);
 INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1739884516,7,0,2,0,0);
 INSERT INTO adlist VALUES(24,'https://blocklist.sefinek.net/generated/0.0.0.0/sites/youtube.txt',1,1691522468,1734815774,'Block Youtube',1770794134,282,0,2,0,0);
 INSERT INTO adlist VALUES(25,'https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt',1,1691528921,1734739046,'block ticktok',1770794136,3789,0,2,0,0);
-INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1772090115,335969,0,1,335969,0);
-INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1772090118,285997,0,1,285997,0);
+INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1772176514,315206,0,1,315206,0);
+INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1772176517,314881,0,1,314881,0);
 CREATE TABLE domainlist_by_group
 (
     domainlist_id INTEGER NOT NULL REFERENCES domainlist (id) ON DELETE CASCADE,
@@ -222,4 +253,35 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(74,188,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(75,189,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(76,190,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(77,192,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(78,193,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(79,194,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(80,195,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(81,196,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(82,197,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(83,198,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(84,199,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(85,200,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(86,201,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(87,202,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(88,203,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(89,204,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(90,205,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(91,206,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(92,207,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(93,208,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(94,209,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(95,210,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(96,211,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(97,212,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(98,213,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(99,214,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(100,215,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(101,216,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(102,217,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(103,218,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(104,219,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(105,220,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(106,221,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(107,222,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(108,223,0);
 COMMIT;
