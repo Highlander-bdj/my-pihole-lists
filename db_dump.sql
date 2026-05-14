@@ -161,16 +161,16 @@ INSERT INTO adlist VALUES(9,'https://raw.githubusercontent.com/hectorm/hmirror/m
 INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt',1,1612209536,1734739046,'Added by Updater',1739884506,6540,0,2,0,0);
 INSERT INTO adlist VALUES(11,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1612209536,1734739046,'Added by Updater',1739884507,2701,0,2,0,0);
 INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1612209536,1734739046,'Added by Updater',1739884507,34,0,2,0,0);
-INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1778134507,17653,0,2,0,0);
+INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1778652908,17684,0,1,0,0);
 INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1739884508,720,0,2,0,0);
-INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1778566507,690,0,1,0,0);
+INSERT INTO adlist VALUES(16,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1612209536,1734739046,'Added by Updater',1778652909,441,0,1,0,0);
 INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1778393709,147888,0,2,147888,0);
 INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1778393710,159052,0,2,159052,0);
 INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1739884516,7,0,2,0,0);
 INSERT INTO adlist VALUES(24,'https://blocklist.sefinek.net/generated/0.0.0.0/sites/youtube.txt',1,1691522468,1734815774,'Block Youtube',1776579312,282,0,2,0,0);
 INSERT INTO adlist VALUES(25,'https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt',1,1691528921,1734739046,'block ticktok',1776579313,3789,0,2,0,0);
-INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1778563234,405197,0,2,405197,0);
-INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1778563238,331791,0,2,331791,0);
+INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1778652917,405391,0,1,405391,0);
+INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1778652921,336583,0,1,336583,0);
 CREATE TABLE domainlist_by_group
 (
     domainlist_id INTEGER NOT NULL REFERENCES domainlist (id) ON DELETE CASCADE,
