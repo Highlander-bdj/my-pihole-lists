@@ -152,27 +152,27 @@ CREATE TABLE adlist
     type INTEGER NOT NULL DEFAULT 0,
     UNIQUE(address, type)
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1794122102,78216,1,2,0,0);
-INSERT INTO adlist VALUES(4,'https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1792257623,22066,0,2,0,0);
-INSERT INTO adlist VALUES(5,'https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1792257623,20270,0,2,0,0);
-INSERT INTO adlist VALUES(6,'https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1792257624,48994,0,2,0,0);
-INSERT INTO adlist VALUES(7,'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt',1,1612209536,1734739046,'Added by Updater',1794294904,16110,0,1,0,0);
-INSERT INTO adlist VALUES(8,'https://raw.githubusercontent.com/dfederlein/dnsbl-dfed/master/spotifyads.txt',1,1612209536,1734739046,'Added by Updater',1792257625,37,0,2,0,0);
-INSERT INTO adlist VALUES(9,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt',1,1612209536,1734739046,'Added by Updater',1792257626,8140,0,2,0,0);
-INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt',1,1612209536,1734739046,'Added by Updater',1792257627,6540,0,2,0,0);
-INSERT INTO adlist VALUES(11,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1612209536,1734739046,'Added by Updater',1792257627,2700,0,2,0,0);
-INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1612209536,1734739046,'Added by Updater',1792257628,34,0,2,0,0);
-INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1794208507,18581,0,2,0,0);
-INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1792257629,720,0,2,0,0);
-INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1794294908,142988,0,1,142988,0);
-INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1793949310,173435,0,2,173435,0);
-INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1792257632,7,0,2,0,0);
-INSERT INTO adlist VALUES(24,'https://blocklist.sefinek.net/generated/0.0.0.0/sites/youtube.txt',1,1691522468,1734815774,'Block Youtube',1792257633,282,0,2,0,0);
-INSERT INTO adlist VALUES(25,'https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt',1,1691528921,1734739046,'block ticktok',1792257634,3789,0,2,0,0);
-INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1794294916,228660,0,1,228660,0);
-INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1792736117,476507,0,3,476507,0);
-INSERT INTO adlist VALUES(28,'https://gist.githubusercontent.com/illgitthat/6a09e6922db62e87a4837164dc0eb86a/raw/amazon-echo-show-pihole-blocklist.txt',1,1783777541,1783777672,'Block Echo Show Ads',1792257641,28,0,2,0,0);
-INSERT INTO adlist VALUES(30,'https://raw.githubusercontent.com/NChaves/pi-hole/refs/heads/main/adBlockListGetAdmiral_ABP.txt',1,1793280279,1793280279,NULL,1793280417,1496,0,2,1496,0);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1612104632,1734739046,'Migrated from /etc/pihole/adlists.list',1794464434,78216,1,1,0,0);
+INSERT INTO adlist VALUES(4,'https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1794464435,22066,0,1,0,0);
+INSERT INTO adlist VALUES(5,'https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1794464436,20270,0,1,0,0);
+INSERT INTO adlist VALUES(6,'https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1794464436,48994,0,1,0,0);
+INSERT INTO adlist VALUES(7,'https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt',1,1612209536,1734739046,'Added by Updater',1794464437,16112,0,1,0,0);
+INSERT INTO adlist VALUES(8,'https://raw.githubusercontent.com/dfederlein/dnsbl-dfed/master/spotifyads.txt',1,1612209536,1734739046,'Added by Updater',1794464437,37,0,1,0,0);
+INSERT INTO adlist VALUES(9,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt',1,1612209536,1734739046,'Added by Updater',1794464437,8140,0,1,0,0);
+INSERT INTO adlist VALUES(10,'https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt',1,1612209536,1734739046,'Added by Updater',1794464438,6540,0,1,0,0);
+INSERT INTO adlist VALUES(11,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1612209536,1734739046,'Added by Updater',1794464438,2700,0,1,0,0);
+INSERT INTO adlist VALUES(12,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1612209536,1734739046,'Added by Updater',1794464439,34,0,1,0,0);
+INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1612209536,1734739046,'Added by Updater',1794464439,18607,0,1,0,0);
+INSERT INTO adlist VALUES(15,'https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt',1,1612209536,1734739046,'Added by Updater',1794464439,720,0,1,0,0);
+INSERT INTO adlist VALUES(19,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',1,1612209536,1734739046,'Added by Updater',1794464440,142234,0,1,142234,0);
+INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails',1,1612209536,1734739046,'Added by Updater',1794464441,173835,0,1,173835,0);
+INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/Highlander-bdj/youtube_blocklist/main/youtube_blocklist.txt',1,1615990423,1734739046,'Block YouTube (my List)',1794464442,7,0,1,0,0);
+INSERT INTO adlist VALUES(24,'https://blocklist.sefinek.net/generated/0.0.0.0/sites/youtube.txt',1,1691522468,1734815774,'Block Youtube',1794464443,282,0,1,0,0);
+INSERT INTO adlist VALUES(25,'https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt',1,1691528921,1734739046,'block ticktok',1794464443,3789,0,1,0,0);
+INSERT INTO adlist VALUES(26,'https://big.oisd.nl',1,1705963347,1734739046,NULL,1794464447,227719,0,1,227719,0);
+INSERT INTO adlist VALUES(27,'https://nsfw.oisd.nl',1,1707769031,1734739046,NULL,1792736117,0,0,4,476507,0);
+INSERT INTO adlist VALUES(28,'https://gist.githubusercontent.com/illgitthat/6a09e6922db62e87a4837164dc0eb86a/raw/amazon-echo-show-pihole-blocklist.txt',1,1783777541,1783777672,'Block Echo Show Ads',1794464450,28,0,1,0,0);
+INSERT INTO adlist VALUES(30,'https://raw.githubusercontent.com/NChaves/pi-hole/refs/heads/main/adBlockListGetAdmiral_ABP.txt',1,1793280279,1793280279,NULL,1794464450,1496,0,1,1496,0);
 CREATE TABLE domainlist_by_group
 (
     domainlist_id INTEGER NOT NULL REFERENCES domainlist (id) ON DELETE CASCADE,
